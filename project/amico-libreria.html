@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAB UI Template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="style/style.css">
+    <link rel="stylesheet"
+          href="style/libreria.css">
+    <link rel="stylesheet"
+          href="style/amici.css">
+</head>
+<body>
+<header>
+    <img class="logo"
+         src="images/lend-borrow.png"
+         alt="logo">
+    <nav class="user-nav">
+        <div class="user-nav-item">Claudia</div>
+        <div class="user-nav-item">Esci</div>
+    </nav>
+</header>
+<section class="left-col">
+    <nav class="content-nav">
+        <div class="content-nav-item">
+            Negozio
+        </div>
+        <a href="libreria.html">
+        <div class="content-nav-item dropdown active expanded">
+            <span>Libreria</span><img src="images/down-arrow.png"
+                                      alt="down arrow">
+        </div>
+        </a>
+        <div class="content-nav-item-sub active">
+            Tutti
+        </div>
+        <div class="content-nav-item-sub">
+            Wheel of Time - serie
+        </div>
+        <div class="content-nav-item-sub">
+            Letture estate 2024
+        </div>
+        <a href="lend.html">
+        <div class="content-nav-item">
+            Lend
+        </div>
+        </a>
+        <div class="content-nav-item">
+            Borrow
+        </div>
+        <a href="amici.html">
+            <div class="content-nav-item">
+                Amici
+            </div>
+        </a>
+    </nav>
+</section>
+<section class="central-area">
+    <div class="friends books">
+        <div class="friend">
+            <div class="friend-item" data-friendid="2">
+                <img class="friend-pic" alt="friend pic"
+                     src="images/friends/02.png">
+                <div class="friend-info">
+                    <p class="friend-name">Antonio</p>
+                </div>
+            </div>
+        </div>
+        <div class="book-collection">
+            <div class="book-item own"
+                 data-bookid="13">
+                <img class="book-cover"
+                     alt="book cover"
+                     src="images/books/13.png">
+                <div class="book-info">
+                    <p class="book-title">La cura Schopenhauer</p>
+                    <p class="book-author">Irvin Yalom</p>
+                </div>
+                <div class="book-actions"><a href="richiesta.html"><span>Chiedi</span></a></div>
+            </div>
+            <div class="book-item own"
+                 data-bookid="12">
+                <img class="book-cover"
+                     alt="book cover"
+                     src="images/books/12.png">
+                <div class="book-info">
+                    <p class="book-title">Flatlandia</p>
+                    <p class="book-author">Edwin A. Abbott</p>
+                </div>
+                <div class="book-actions"><span>Chiedi</span></div>
+            </div>
+            <div class="book-item own lent"
+                 data-bookid="11">
+                <img class="book-cover"
+                     alt="book cover"
+                     src="images/books/11.png">
+                <div class="book-info">
+                    <p class="book-title">Fondazione - Il ciclo completo</p>
+                    <p class="book-author">Isaac Asimov</p>
+                </div>
+                <div class="book-status"><span class="status">L</span><span class="due">8/10/24</span></div>
+            </div>
+            <div class="book-item own"
+                 data-bookid="10">
+                <img class="book-cover"
+                     alt="book cover"
+                     src="images/books/10.png">
+                <div class="book-info">
+                    <p class="book-title">Pista nera</p>
+                    <p class="book-author">Antonio Manzini</p>
+                </div>
+                <div class="book-actions"><span>Chiedi</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <p class="copy">
+        <span class="highlight">Lend-A-Book</span> è un progetto no profit realizzato per il corso di Tecnologie Web,
+        CdL in Informatica,
+        Università di Torino.
+    </p>
+    <p class="license">&copy; 2024-2025 Claudia Picardi.<a
+            href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it"><img alt="creative commons license"
+                                                                                  class="cclicense"
+                                                                                  src="images/by-nc-sa.png"></a></p>
+    <p class="credits"><a href="https://www.flaticon.com/free-icons/down-arrow"
+                          title="down arrow icons">Down arrow icons created by Roundicons - Flaticon</a></p>
+</footer>
+</body>
+</html>
